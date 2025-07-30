@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Time Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="public/mytimeboutique.png" alt="My Time Boutique" class="nav-logo">
+                <span class="nav-title">My Time</span>
+            </div>
+
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active" data-page="home">Home</a>
+                <a href="#about" class="nav-link" data-page="about">About</a>
+                <a href="#collection" class="nav-link" data-page="collection">Collection</a>
+                <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-background">
+                    <img src="public/header.jpg" alt="Background" class="hero-bg">
+                    <div class="hero-overlay"></div>
+                </div>
+
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Welcome to <br> My Time Boutique</h1>
+                        <p class="hero-subtitle">
+                            Discover our curated collection of ethnic and western wear that blends traditional elegance
+                            with contemporary style.
+                            Each piece is carefully crafted to make you feel confident and beautiful.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#collection" class="btn btn-primary">Shop Now</a>
+                            <a href="#about" class="btn btn-secondary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-fade"></div>
+            </section>
+
+            <!-- Featured Collections -->
+            <section class="featured-collections">
+                <div class="container">
+                    <h2 class="section-title">Featured Collections</h2>
+                    <div class="collections-grid">
+                        <div class="collection-card">
+                            <div class="collection-image">
+                                <img src="public/lehenga.jpg" alt="Lehenga Collection" class="collection-img">
+                            </div>
+                            <div class="collection-overlay">
+                                <h3 class="collection-title">Lehenga Collection</h3>
+                                <p class="collection-description">Exquisite bridal and party wear lehengas for your
+                                    special occasions</p>
+                                <a href="#collection" class="collection-btn">View Collection</a>
+                            </div>
+                        </div>
+
+                        <div class="collection-card">
+                            <div class="collection-image">
+                                <img src="public/kurti.jpg" alt="Kurti Collection" class="collection-img">
+                            </div>
+                            <div class="collection-overlay">
+                                <h3 class="collection-title">Kurti Collection</h3>
+                                <p class="collection-description">Contemporary and traditional kurtis for everyday
+                                    elegance</p>
+                                <a href="#collection" class="collection-btn">View Collection</a>
+                            </div>
+                        </div>
+
+                        <div class="collection-card">
+                            <div class="collection-image">
+                                <img src="public/western.jpg" alt="Western Collection" class="collection-img">
+                            </div>
+                            <div class="collection-overlay">
+                                <h3 class="collection-title">Western Collection</h3>
+                                <p class="collection-description">Modern western wear for the fashion-forward woman</p>
+                                <a href="#collection" class="collection-btn">View Collection</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Story Section -->
+            <section class="our-story">
+                <div class="container">
+                    <div class="story-content">
+                        <div class="story-text">
+                            <h2 class="section-title">Our Story</h2>
+                            <p class="story-paragraph">
+                                My Time Boutique began with a passion for creating beautiful, timeless fashion that
+                                makes every woman feel extraordinary. Founded in 2013, we've grown from a small local
+                                boutique to a beloved fashion destination, while maintaining our commitment to quality
+                                and personal service.
+                            </p>
+                            <p class="story-paragraph">
+                                Our collections blend traditional craftsmanship with contemporary designs, creating
+                                pieces that are both timeless and modern. Each garment is carefully selected or crafted
+                                to ensure the highest quality and perfect fit.
+                            </p>
+                            <a href="#about" class="story-link">
+                                Learn more about us
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-number">10+</div>
+                                <div class="stat-label">Years of Excellence</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">1000+</div>
+                                <div class="stat-label">Happy Customers</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Unique Designs</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Fashion Awards</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Choose Us -->
+            <section class="why-choose-us">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="section-title">Why Choose My Time Boutique?</h2>
+                        <p class="section-subtitle">
+                            We're committed to providing you with the finest fashion experience through quality, style,
+                            and exceptional service.
+                        </p>
+                    </div>
+
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <h3 class="feature-title">Quality Craftsmanship</h3>
+                            <p class="feature-description">
+                                Premium fabrics and expert tailoring ensure each piece meets our high standards of
+                                quality and durability.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h3 class="feature-title">Unique Designs</h3>
+                            <p class="feature-description">
+                                Our exclusive collections feature unique designs that help you stand out at every
+                                occasion.
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-shopping-bag"></i>
+                            </div>
+                            <h3 class="feature-title">Customer First</h3>
+                            <p class="feature-description">
+                                Enjoy personalized styling advice and exceptional service from our dedicated fashion
+                                experts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta-section">
+                <div class="cta-background">
+                    <img src="public/fabric.jpg" alt="Background" class="cta-bg">
+                    <div class="cta-overlay"></div>
+                </div>
+
+                <div class="container">
+                    <div class="cta-content">
+                        <h2 class="cta-title">Ready to Elevate Your Style?</h2>
+                        <p class="cta-subtitle">
+                            Join thousands of satisfied customers who trust My Time Boutique for their fashion needs.
+                        </p>
+                        <a href="#collection" class="btn btn-primary">Start Shopping</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <div class="about-content">
+                    <h1 class="page-title">About My Time Boutique</h1>
+                    <p class="about-description">
+                        About my time boutique by Shalini tiwar (Owner), Manoj and Rinku (fashion designers) a top ladies fashion boutique located in Noida serves as a one-stop destination for all kinds of latest & designer Indian ethnic wear designed by expert designers and stitched by expert ladies tailors. <br> My time boutique by Shalini is a store that not just caters to the end to end needs of the all ladies ethnic wear but also offers a broad range of apparels for the all age's females. <br> This ethnic store offers exclusive ladies' designer outfits which hail right from royal outfit to traditional heavily embellished dresses not just for a girl but for all brides as well. <br> The ladies apparels available at the My time boutique’s store is not limited to the domain of ethnic wear but rather it also offers other collections such as ladies party wear, ready to wear, casual wear and way lot. <br> This designer boutique in noida offers an eclectic mix of ethnic, fashion, formal and western wear. Visit us for once to make yourself feel privileged at your event or party with a unique collection from House of My time Boutique
+                    </p>
+
+                    <div class="mission-vision-grid">
+                        <div class="mission-card">
+                            <h3 class="card-title">Our Mission</h3>
+                            <p class="card-description">
+                                To provide high-quality, stylish clothing that makes our customers feel confident and
+                                comfortable, while maintaining sustainable and ethical practices.
+                            </p>
+                        </div>
+                        <div class="vision-card">
+                            <h3 class="card-title">Our Vision</h3>
+                            <p class="card-description">
+                                To become the go-to destination for fashion-conscious individuals who value quality,
+                                style, and sustainability.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-section">
+                    <h2 class="section-title">Meet Our Team</h2>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="public/about/shalini.jpg" alt="Shalini Tiwari" class="member-img">
+                            </div>
+                            <h3 class="member-name">Shalini Tiwari</h3>
+                            <p class="member-role">Founder</p>
+                        </div>
+
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="public/about/manoj.jpg" alt="Michael Chen" class="member-img">
+                            </div>
+                            <h3 class="member-name">Manoj Nehra</h3>
+                            <p class="member-role">Fashion Designer</p>
+                        </div>
+
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="public/about/Rinku.jpg" alt="Emma Williams" class="member-img">
+                            </div>
+                            <h3 class="member-name">Rinku Nehra</h3>
+                            <p class="member-role">Fashion Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collection Page -->
+        <section id="collection" class="page">
+            <div class="container">
+                <h1 class="page-title">Our Collection</h1>
+
+                <div class="category-filters">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="western">Western</button>
+                    <button class="category-btn" data-category="traditional">Traditional</button>
+                    <button class="category-btn" data-category="accessories">Accessories</button>
+                </div>
+
+                <div class="products-grid" id="productsGrid">
+                    <!-- Products will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <h1 class="page-title">Contact Us</h1>
+
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.4566131687884!2d77.40051427491215!3d28.495906790272915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce900617272ad%3A0xb9b39d8ab5ce6e51!2sMy%20Time%20Boutique%20and%20Cosmetics!5e0!3m2!1sen!2sin!4v1753345043224!5m2!1sen!2sin" width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+
+                <div class="contact-info-grid">
+                    <div class="contact-card">
+                        <h2 class="contact-title">Visit Our Store</h2>
+                        <address class="contact-address">
+                            shop no. 115,<br> Assotech Business Cresterra,<br> Sector 135, Noida Uttar Pradesh
+                        </address>
+                        <div class="contact-details">
+                            <p><strong>Phone:</strong>+91 7568400477</p>
+                            <p><strong>Email:</strong> mytimeboutique9216@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <h2 class="contact-title">Opening Hours</h2>
+                        <ul class="hours-list">
+                            <li>Monday – Sunday: 11:00 AM to 9:00 PM</li>
+                            <li>🕒 We are open 7 days a week to serve you better!</li>
+                            <li>📍 Walk-ins welcome, no appointment needed.</li>
+                            <li>🛍️ New arrivals every week – drop by and explore!</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" action="https://formsubmit.co/boutiquemytime@gmail.com"
+                    method="POST">
+
+                    <!-- Recommended hidden fields -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <!-- Optional: custom redirect after submission -->
+                    <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
+
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-textarea" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about-us">
+                <h3>My Time Boutique</h3>
+                <p>Discover timeless elegance and unique collections at My Time Boutique. We offer a curated selection
+                    of fashion that speaks to your personal style.</p>
+            </div>
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home" data-page="home">Home</a></li>
+                    <li><a href="#about" data-page="about" class="nav-link">About</a></li>
+                    <li><a href="#collection" class="nav-link" data-page="collection">Collection</a></li>
+                    <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i>shop no. 115, Assotech Business Cresterra, Sector 135,Noida, Uttar Pradesh</p>
+                <p><i class="fas fa-phone"></i> +91 7568400477</p>
+                <p><i class="fas fa-envelope"></i>mytimeboutique9216@gmail.com</p>
+            </div>
+            <div class="footer-section social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 My Time Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
